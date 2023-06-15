@@ -1,2 +1,2 @@
 # wallet-message
-wallet message channel
+wallet message channel library

@@ -1,0 +1,13 @@
+{ 
+  "compilerOptions": { 
+    "target": "es5", 
+    "module": "commonjs", 
+    "declaration": true, // 生成.d.ts 类型声明文件， 
+    "outDir": "./lib", 
+    "strict": true,
+    "esModuleInterop":true,
+    "downlevelIteration":true
+  }, 
+  "include": [ "src"], 
+  "exclude": ["node_modules", "**/__tests__/*"] 
+}
